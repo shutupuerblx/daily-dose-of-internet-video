@@ -162,7 +162,7 @@ def encode(filmName,videoName,resolutionMulti,fpsMulti,packetSize):
 
         "totalFrames": scaledFrameIterations,
 
-        "fps": 60,
+        "fps": "scaledFPS",
 
     }
 
